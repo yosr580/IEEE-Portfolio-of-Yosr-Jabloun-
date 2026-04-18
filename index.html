@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yosr Jabloun - IEEE Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="logo">
+                <span class="shield-icon">💠</span> YOSR <span class="highlight">JABLOUN</span>
+            </div>
+            <div class="header-glow"></div>
+        </header>
+
+        <aside class="sidebar">
+            <nav class="nav-menu">
+                <ul>
+                    <li class="active"><a href="#profile"><span>01</span> Profile</a></li>
+                    <li><a href="#leadership"><span>02</span> IEEE Leadership</a></li>
+                    <li><a href="#events"><span>03</span> Major Events</a></li>
+                    <li><a href="#projects"><span>04</span> Educational Activities</a></li>
+                    <li><a href="#awards"><span>05</span> Awards</a></li>
+                    <li><a href="#gallery"><span>06</span> Favourite Photos</a></li>
+                </ul>
+            </nav>
+            <div class="sidebar-status">
+                <p>2025 Rising Star: <span class="neon-text-blue">Active</span></p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="content-header" id="profile">
+                <div class="profile-layout">
+                    <div class="profile-image-container">
+                        <img src="img/avatar.png" alt="Yosr Jabloun" class="profile-image" onerror="this.src='avatar.png'">
+                    </div>
+                    <div class="profile-text">
+                        <h1>Yosr Jabloun</h1>
+                        <h2>Telecom Engineering Student & IEEE Changemaker</h2>
+                        <p class="intro-text">Empowering the next generation of engineers. Dedicated to advancing technical excellence, building inclusive communities, and exploring Artificial Intelligence to shape a future where technology serves humanity at its core.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-grid">
+                <div class="glass-card ieee-core-glow has-image" id="leadership">
+                    <!-- Added fallback image paths in case background URL differs slightly -->
+                    <div class="card-image-bg" style="background-image: url('img/group-education-1.jpg');"></div>
+                    <div class="card-content-overlay">
+                        <h3>IEEE ENIT SB Chair</h3>
+                        <p>Led a transformative mandate at École Nationale d'Ingénieurs de Tunis (ENIT). Achieved a historic milestone of <strong class="text-ieee-core">300+ active members</strong> and successfully organized over 160 technical, educational, and humanitarian activities.</p>
+                        <div class="progress-bar"><div class="fill ieee-core-fill" style="width: 100%"></div></div>
+                    </div>
+                </div>
+                
+                <div class="glass-card ieee-cyan-glow" id="events">
+                    <h3>Event Architect & Leader</h3>
+                    <p>Vice Chair of <strong>IEEE PESTGM</strong> and Program & Media Manager for <strong>WIE ACT</strong>. Spearheaded AI-driven ideathons, GREENCON, and mentorship programs that transitioned students from theoretical learning to practical leadership.</p>
+                    <div class="progress-bar"><div class="fill ieee-cyan-fill" style="width: 95%"></div></div>
+                </div>
+                
+                <div class="glass-card ieee-orange-glow has-image" id="projects">
+                    <div class="card-image-bg" style="background-image: url('img/teaching-1.jpg'); background-position: center top;"></div>
+                    <div class="card-content-overlay">
+                        <h3>Educational & AI Impact</h3>
+                        <p>Active in the <strong>IEEE Educational Activities Committee (Tunisia Section)</strong>. Built inclusive models like <strong>ElearNIT</strong> (for deaf students) and <strong>TUNILIP</strong> (lip-reading for patients) to leverage technology for humanity.</p>
+                        <div class="progress-bar"><div class="fill ieee-orange-fill" style="width: 92%"></div></div>
+                    </div>
+                </div>
+                
+                <div class="glass-card data-card span-2" id="awards">
+                    <h3>Recognition & Impact Metrics</h3>
+                    <div class="telemetry-grid">
+                        <div class="data-point">
+                            <span class="label">Prestigious Award</span>
+                            <span class="value text-ieee-cyan" style="font-size:26px; line-height: 1.2; margin-top: 6px;">2025 Rising Star<br><span style="font-size:14px;letter-spacing:1px;color:var(--text-muted);text-shadow:none;font-weight:600;font-family:var(--font-heading)">(Tunisia Section)</span></span>
+                        </div>
+                        <div class="data-point">
+                            <span class="label">Community Growth</span>
+                            <span class="value text-ieee-core">300+</span>
+                        </div>
+                        <div class="data-point">
+                            <span class="label">Events Orchestrated</span>
+                            <span class="value text-ieee-orange">160+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New Favorite Photos Gallery Section -->
+            <div class="gallery-section" id="gallery">
+                <h3>Favourite Moments in IEEE</h3>
+                <div class="bento-gallery">
+                    <div class="gallery-item item-1">
+                        <img src="img/fav1.jpg" alt="Futurise 20 Years">
+                        <div class="gallery-overlay">Event Highlights</div>
+                    </div>
+                    <div class="gallery-item item-2">
+                        <img src="img/fav2.jpg" alt="Medina Conference">
+                        <div class="gallery-overlay">Team Synergy</div>
+                    </div>
+                    <div class="gallery-item item-3">
+                        <img src="img/fav3.jpg" alt="IEEE Education Week">
+                        <div class="gallery-overlay">Education Week</div>
+                    </div>
+                    <div class="gallery-item item-4">
+                        <img src="img/fav4.jpg" alt="TSYP Congress">
+                        <div class="gallery-overlay">TSYP 13</div>
+                    </div>
+                    <div class="gallery-item item-5">
+                        <img src="img/fav5.jpg" alt="Group Moment">
+                        <div class="gallery-overlay">Leadership</div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Yosr Jabloun | Advancing Technology For Humanity | <span class="blinking-cursor">_</span></p>
+        </footer>
+    </div>
+</body>
+</html>
